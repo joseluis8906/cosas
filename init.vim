@@ -43,16 +43,16 @@ autocmd FileType html JsPreTmpl
 
 
 "##### airblade/vim-gitgutter #####
-let g:gitgutter_highlight_lines = 1
+"let g:gitgutter_highlight_lines = 1
 
 
 "##### move lines #####
 nnoremap <A-k> :m .+1<CR>==
-nnoremap <A-l> :m .-2<CR>==
+nnoremap <A-i> :m .-2<CR>==
 inoremap <A-k> <Esc>:m .+1<CR>==gi
-inoremap <A-l> <Esc>:m .-2<CR>==gi
+inoremap <A-i> <Esc>:m .-2<CR>==gi
 vnoremap <A-k> :m '>+1<CR>gv=gv
-vnoremap <A-l> :m '<-2<CR>gv=gv
+vnoremap <A-i> :m '<-2<CR>gv=gv
 
 
 "##### remap keys #####
