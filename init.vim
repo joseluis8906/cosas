@@ -61,6 +61,11 @@ nnoremap j h
 nnoremap k j
 nnoremap i k
 
+vnoremap e i
+vnoremap j h
+vnoremap k j
+vnoremap i k
+
 nnoremap <C-j> <C-W><C-H>
 nnoremap <C-k> <C-W><C-J>
 nnoremap <C-i> <C-W><C-K>
