@@ -1,4 +1,4 @@
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/AppData/Local/nvim/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'trevordmiller/nova-vim'
 Plug 'magarcia/vim-angular2-snippets'
@@ -72,3 +72,7 @@ nnoremap <C-i> <C-W><C-K>
 nnoremap <C-l> <C-W><C-L>
 
 let NERDTreeMapOpenSplit='v'
+
+"##### save shortcut #####
+nnoremap <C-s> :w<CR>
+nnoremap <C-q> :bd#<CR>
